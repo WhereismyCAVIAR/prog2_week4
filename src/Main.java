@@ -5,8 +5,10 @@ public class Main {
         Chatbot bot2 = new Chatbot("caviar");
         bot1.greeting();
         bot2.greeting();
-        bot2.name = "キャビア";
+        bot2.setName("キャビア");
         bot2.greeting();
+        bot2.setName("差別用語");
+        bot2.greeting();        
     }
     
 }
